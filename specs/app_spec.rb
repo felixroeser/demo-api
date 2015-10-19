@@ -21,7 +21,7 @@ describe 'Api' do
       it "returns all products" do
         get "/v1/products"
         assert last_response.ok?
-        assert JSON.parse(last_response.body).size == 3
+        assert JSON.parse(last_response.body).size == 4
       end
 
     end
