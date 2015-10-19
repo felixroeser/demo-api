@@ -11,7 +11,8 @@ class API < Grape::API
       [
         {id: 1, name: "Erlang Book"},
         {id: 2, name: "The Rails Way"},
-        {id: 3, name: "Go Handbook"}
+        {id: 3, name: "Go Handbook"},
+        {id: 4, name: "CI works"}
       ]
     end
 
