@@ -1,0 +1,13 @@
+{
+  "id": "api",
+  "cmd": "bundle install && PORT=$PORT bundle exec foreman start",
+  "mem": 100,
+  "cpus": 0.5,
+  "instances": 1,
+  "uris": [
+    "http://downloads.mesosphere.com/tutorials/RailsHello.tgz"
+  ],
+  "env": {
+    "RAILS_ENV": "production"
+  }
+}

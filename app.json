@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "api"
+  ],
+  "repository": "https://github.com/felixroeser/demo-api",
+  "success_url": "/",
+  "scripts": {
+    },
+  "env": {
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    }
+  },
+  "image": "heroku/ruby",
+  "addons": [
+  ]
+}
