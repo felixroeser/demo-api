@@ -27,7 +27,7 @@ describe 'Api' do
     end
 
     describe "GET /:id" do
-      skip "test this later"
+      # skip "test this later"
     end
 
   end
