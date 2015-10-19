@@ -1,13 +1,16 @@
 {
-  "id": "api",
+  "id": "/api",
   "cmd": "bundle install && PORT=$PORT bundle exec foreman start",
   "mem": 100,
   "cpus": 0.5,
-  "instances": 1,
+  "instances": 2,
   "uris": [
-    "https://github.com/felixroeser/demo-api/archive/v0.0.1.tar.gz"
+    "https://github.com/felixroeser/demo-api/tarball/master/"
   ],
   "env": {
     "RAILS_ENV": "production"
-  }
+  },
+  "ports": [
+    0
+  ]
 }
