@@ -5,7 +5,7 @@
   "cpus": 0.5,
   "instances": 1,
   "uris": [
-    "http://downloads.mesosphere.com/tutorials/RailsHello.tgz"
+    "https://github.com/felixroeser/demo-api/archive/v0.0.1.tar.gz"
   ],
   "env": {
     "RAILS_ENV": "production"
