@@ -16,5 +16,7 @@
   },
   "image": "heroku/ruby",
   "addons": [
+    "heroku-redis:hobby-dev",
+    "codeship:free"
   ]
 }
